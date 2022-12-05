@@ -902,6 +902,7 @@ button::-moz-focus-inner {
 }
 
 .btn {
+  display: inline-block;
   background: #F87933;
   font-weight: 700;
   font-size: 20px;
@@ -1174,6 +1175,118 @@ button::-moz-focus-inner {
   line-height: 108.19%;
   text-transform: uppercase;
   color: #6D6D6D;
+}
+
+.main-feedback {
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+.main-feedback__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-feedback__left {
+  width: 688px;
+}
+.main-feedback__slider {
+  width: 100%;
+}
+.main-feedback__slider-item {
+  position: relative;
+}
+.main-feedback__slider-item P {
+  width: 347px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 108%;
+  color: #FFFFFF;
+}
+.main-feedback__right {
+  width: 904px;
+}
+.main-feedback__title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 108%;
+  color: #004BA9;
+  margin: 70px;
+}
+.main-feedback__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 108%;
+  color: #1A1A1A;
+  margin-bottom: 30px;
+}
+.main-feedback__input {
+  width: 100%;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 108.19%;
+  color: #848484;
+  padding: 25px 35px;
+  background: #FAFAFA;
+  border: 1px solid #E6E6E6;
+  margin-bottom: 15px;
+}
+.main-feedback__textarea {
+  width: 100%;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 108.19%;
+  color: #848484;
+  padding: 25px 35px;
+  background: #FAFAFA;
+  border: 1px solid #E6E6E6;
+  margin-bottom: 30px;
+}
+.main-feedback__btn {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.main-feedback__undertext {
+  text-align: center;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 108%;
+  color: #848484;
+}
+.main-feedback__undertext a {
+  text-decoration: underline;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -80px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  color: black;
+  opacity: 0.15;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #004BA9;
 }
 
 .our-geography {

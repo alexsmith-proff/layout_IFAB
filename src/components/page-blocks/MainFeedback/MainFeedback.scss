@@ -1,0 +1,123 @@
+.main-feedback {
+  padding-top: 100px;
+  margin-bottom: 60px;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    width: 688px;
+  }
+
+  &__slider {
+    width: 100%;
+  }
+
+  &__slider-item {
+    position: relative;
+
+    P {
+      width: 347px;
+      position: absolute;
+      left: 40px;
+      bottom: 40px;
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 108%;
+      color: #FFFFFF;
+
+    }
+  }
+
+
+  &__right {
+    width: 904px;
+  }
+
+  &__title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 108%;
+    color: #004BA9;
+    margin: 70px;
+  }
+
+  &__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108%;
+    color: #1A1A1A;
+    margin-bottom: 30px;
+
+  }
+
+  &__input {
+    width: 100%;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 108.19%;
+    color: #848484;
+    padding: 25px 35px;
+    background: #FAFAFA;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 15px;
+
+  }
+
+  &__textarea {
+    width: 100%;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 108.19%;
+    color: #848484;
+    padding: 25px 35px;
+    background: #FAFAFA;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  &__undertext {
+    text-align: center;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 108%;
+    color: #848484;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -80px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  color: black;
+  opacity: 0.15;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #004BA9;
+  // opacity: 0.75;
+}
