@@ -1,0 +1,59 @@
+.main-page {
+    background: url('/img/title-bg.png') no-repeat;
+    background-position-y: -130px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 115%;
+        color: #004BA9;
+        padding-top: 120px;
+        margin-bottom: 25px;
+    }
+
+    &__subtitle {
+        font-family: 'PT Sans';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 131%;
+        color: #1A1A1A;
+        margin-bottom: 120px;
+    }
+
+    &__btn{
+        margin-bottom: 140px;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    &__cards-item {
+        background: url('../../../img/card-bg.png') no-repeat;
+        padding: 25px;
+        width: 402px;
+    }
+
+    &__cards-title {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    &__cards-text {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 108%;
+        color: #FFFFFF;    
+        width: 236px;    
+    }
+}
