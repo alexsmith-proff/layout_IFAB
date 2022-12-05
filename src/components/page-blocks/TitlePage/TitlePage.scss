@@ -1,6 +1,9 @@
 .main-page {
     background: url('/img/title-bg.png') no-repeat;
-    background-position-y: -130px;
+    background-color: #F0F4FF;
+    background-position-y: -200px;
+    // background-position-x: 100%;
+    background-size: cover;
 
     &__title {
         font-weight: 700;

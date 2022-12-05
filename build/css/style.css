@@ -1071,6 +1071,10 @@ button::-moz-focus-inner {
   padding: 35px 0;
 }
 
+.header {
+  padding: 20px 0;
+}
+
 .topnav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1395,7 +1399,9 @@ button::-moz-focus-inner {
 
 .main-page {
   background: url("/img/title-bg.png") no-repeat;
-  background-position-y: -130px;
+  background-color: #F0F4FF;
+  background-position-y: -200px;
+  background-size: cover;
 }
 .main-page__title {
   font-weight: 700;
