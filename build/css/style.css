@@ -1176,6 +1176,103 @@ button::-moz-focus-inner {
   color: #6D6D6D;
 }
 
+.our-geography {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.geography__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #004BA9;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.geography__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.geography__left {
+  background: url("../../../img/geography1.png") no-repeat;
+}
+.geography__right {
+  max-width: 650px;
+}
+.geography__right-title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 108%;
+  color: #1A1A1A;
+  margin-bottom: 20px;
+}
+.geography__right-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+.geography__right-item:last-child {
+  margin-bottom: 0;
+}
+.geography__right-item img {
+  margin-right: 15px;
+}
+.geography__right-item p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 108%;
+  color: #1A1A1A;
+}
+
+.partners {
+  padding-top: 100px;
+}
+.partners__title {
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #004BA9;
+  margin-bottom: 30px;
+}
+.partners__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.partners__item {
+  width: 263px;
+  height: 115px;
+  margin: 20px 0;
+}
+
 .main-page {
   background: url("/img/title-bg.png") no-repeat;
   background-position-y: -130px;
