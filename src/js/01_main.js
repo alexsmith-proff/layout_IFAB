@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
-	$('.menu-burger').click(function (event) {
+	$('.burger-menu').click(function (event) {
 		$(this).toggleClass('open-menu');
-		$('.topnav').toggleClass('responsive');
+		$('.topnav__mobile-menu').toggleClass('open');
 	});
 
 	$('.main-feedback__slider').slick({
