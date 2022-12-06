@@ -917,6 +917,39 @@ button::-moz-focus-inner {
   color: #F87933;
 }
 
+.button-next {
+  display: inline-block;
+  padding: 20px 15px;
+  background: #004BA9;
+}
+.button-next img {
+  display: inline-block;
+}
+
+.card {
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+}
+.card__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.card__bottom h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #1A1A1A;
+  width: 200px;
+}
+
 .my-btn {
   font-size: 22px;
   line-height: 28px;
@@ -1546,20 +1579,14 @@ button::-moz-focus-inner {
           justify-content: space-between;
   margin-top: 20px;
 }
-.solutions__item h3 {
+.solutions__item-bottom h3 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 120%;
   color: #1A1A1A;
-  margin-top: 20px;
   width: 200px;
-}
-.solutions__btn {
-  display: block;
-  padding: 30px 18px;
-  background: #004BA9;
 }
 .solutions__view-btn {
   text-align: center;
