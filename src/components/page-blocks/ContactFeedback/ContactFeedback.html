@@ -1,0 +1,25 @@
+<section class="contact-feedback">
+    <div class="container">
+        <div class="contact-feedback__wrap">
+            <div class="contact-feedback__left">
+                <img src="../../../img/contact-feedback.png" alt="contact-feedback">
+            </div>
+            <div class="contact-feedback__right">
+                <div class="contact-feedback__title">У нас точно есть<br> предложение для Вас!</div>                                
+                <input type="text" class="contact-feedback__input" placeholder="Компания">
+                <input type="text" class="contact-feedback__input" placeholder="Номер телефона">
+                <input type="text" class="contact-feedback__input" placeholder="E-mail">
+                <textarea class="contact-feedback__textarea" rows="11" placeholder="Опишите ваш запрос"></textarea>
+                <div class="contact-feedback__btn">
+                    @@include('../../bem-blocks/Button/Button.html', {
+                        "link": "#",
+                        "text": "Отправить запрос",
+                    })
+                </div>
+                <div class="contact-feedback__undertext">Нажимая на кнопку, вы даете 
+                    <a href="#">согласие на обработку персональных данных</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+</section>
