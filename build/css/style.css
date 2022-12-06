@@ -1765,10 +1765,10 @@ button::-moz-focus-inner {
 }
 @media screen and (max-width: 380px) {
   .main-feedback__left {
-    width: 290px;
+    width: 250px;
   }
   .main-feedback__slider-item img {
-    width: 290px;
+    width: 250px;
   }
   .main-feedback__title {
     font-size: 22px;
@@ -2173,6 +2173,20 @@ button::-moz-focus-inner {
   }
   .main-page__cards-item {
     margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-page__title {
+    padding-top: 60px;
+  }
+  .main-page__subtitle {
+    margin-bottom: 80px;
+  }
+  .main-page__btn {
+    margin-bottom: 80px;
+  }
+  .main-page__cards {
+    padding-bottom: 40px;
   }
 }
 body {
