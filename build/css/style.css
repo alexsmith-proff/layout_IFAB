@@ -1010,18 +1010,29 @@ button::-moz-focus-inner {
   padding: 30px;
 }
 .sidebar__item {
+  margin-bottom: 20px;
+}
+.sidebar__item a {
   font-family: "Raleway";
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   text-transform: uppercase;
   color: #6D6D6D;
-  margin-bottom: 20px;
+}
+.sidebar__item.active a {
+  color: #004BA9;
 }
 .sidebar__item:last-child {
   margin-bottom: 0;
 }
 .sidebar__item.title {
+  margin-top: 30px;
+}
+.sidebar__item.title:first-child {
+  margin-top: 20px;
+}
+.sidebar__item.title a {
   font-weight: 700;
 }
 
@@ -1560,6 +1571,9 @@ button::-moz-focus-inner {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .products__list {
   max-width: 1256px;

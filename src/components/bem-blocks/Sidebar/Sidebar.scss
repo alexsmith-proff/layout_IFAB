@@ -6,20 +6,37 @@
     }
 
     &__item {
-        font-family: 'Raleway';
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 23px;
-        text-transform: uppercase;
-        color: #6D6D6D;
         margin-bottom: 20px;
+
+        a {
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #6D6D6D;
+        }
+
+        &.active {
+            a {
+                color: #004BA9;
+            }
+        }
 
         &:last-child {
             margin-bottom: 0;
         }
 
         &.title {
-            font-weight: 700;
+            margin-top: 30px;
+
+            &:first-child {
+                margin-top: 20px;
+            }
+
+            a {
+                font-weight: 700;
+            }
         }
     }
 }
