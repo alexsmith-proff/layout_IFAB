@@ -3,7 +3,7 @@
 
     &__wrap {
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
     }
 
@@ -12,6 +12,7 @@
     }
 
     &__right {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
