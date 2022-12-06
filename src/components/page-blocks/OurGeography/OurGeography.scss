@@ -38,8 +38,6 @@
         margin-bottom: 20px;
     }
 
-    &__right-list {}
-
     &__right-item {
         display: flex;
         align-items: center;
@@ -60,6 +58,70 @@
             font-size: 20px;
             line-height: 108%;
             color: #1A1A1A;
+        }
+    }
+}
+@media screen and (max-width: 1350px) {    
+    .geography {
+        &__wrap {
+            flex-direction: column;
+        }
+    
+        &__left {
+            img{
+                display: block;
+                width: 100%;
+            }
+            margin-bottom: 50px;
+        }
+    
+        &__right {
+            max-width: 100%;
+        }
+    
+        &__right-title {
+            font-family: 'PT Sans';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 108%;
+            color: #1A1A1A;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .geography {
+    
+        &__title {
+            font-size: 18px;
+        }
+    
+        &__wrap {
+            flex-direction: column;
+        }
+    
+        &__left {
+            img{
+                display: block;
+                width: 100%;
+            }
+            margin-bottom: 50px;
+        }
+    
+        &__right {
+            max-width: 100%;
+        }
+    
+        &__right-title {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+    
+        &__right-item {
+            p {
+                font-size: 16px;
+            }
         }
     }
 }

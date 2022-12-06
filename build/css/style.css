@@ -439,6 +439,27 @@ button::-moz-focus-inner {
   border: 0;
 }
 
+@font-face {
+  font-family: "Formular-Bold";
+  src: local("Formular-Bold"), url("../fonts/Formular-Bold.woff2") format("woff2"), url("../fonts/Formular-Bold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Formular-Medium";
+  src: local("Formular-Medium"), url("../fonts/Formular-Medium.woff2") format("woff2"), url("../fonts/Formular-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Formular";
+  src: local("Formular"), url("../fonts/Formular.woff2") format("woff2"), url("../fonts/Formular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1638,6 +1659,60 @@ button::-moz-focus-inner {
   color: #1A1A1A;
 }
 
+@media screen and (max-width: 1350px) {
+  .geography__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .geography__left {
+    margin-bottom: 50px;
+  }
+  .geography__left img {
+    display: block;
+    width: 100%;
+  }
+  .geography__right {
+    max-width: 100%;
+  }
+  .geography__right-title {
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108%;
+    color: #1A1A1A;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .geography__title {
+    font-size: 18px;
+  }
+  .geography__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .geography__left {
+    margin-bottom: 50px;
+  }
+  .geography__left img {
+    display: block;
+    width: 100%;
+  }
+  .geography__right {
+    max-width: 100%;
+  }
+  .geography__right-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .geography__right-item p {
+    font-size: 16px;
+  }
+}
 .partners {
   padding-top: 100px;
 }
