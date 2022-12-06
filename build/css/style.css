@@ -938,6 +938,7 @@ button::-moz-focus-inner {
   padding: 20px;
   background: #FFFFFF;
   border: 1px solid #E8E8E8;
+  margin-bottom: 20px;
 }
 .card__bottom {
   display: -webkit-box;
@@ -1807,6 +1808,8 @@ button::-moz-focus-inner {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 80px;
 }
 .solutions__item {
@@ -1837,6 +1840,12 @@ button::-moz-focus-inner {
   margin-bottom: 60px;
 }
 
+@media screen and (max-width: 973px) {
+  .solutions__list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 .main-page {
   background: url("/img/title-bg.png") no-repeat;
   background-color: #F0F4FF;

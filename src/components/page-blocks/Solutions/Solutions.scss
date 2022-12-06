@@ -16,6 +16,7 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-bottom: 80px;
     }
 
@@ -44,5 +45,13 @@
     &__view-btn{
         text-align: center;
         margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 973px) {
+    .solutions {
+        &__list {
+            justify-content: space-around;
+        }
     }
 }
