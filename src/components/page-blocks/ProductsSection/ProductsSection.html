@@ -1,0 +1,35 @@
+<section class="products">
+    <div class="container">
+        <div class="products__title">Продукция</div>
+        <div class="products__wrap">
+            @@include('../../bem-blocks/Sidebar/Sidebar.html')
+            <ul class="products__list">
+                    @@include('../../bem-blocks/Card/Card.html', {
+                        "img": "../../../img/solution1.webp",
+                        "text": "Рукавные фильтры",
+                        "link": "#"
+                        })
+                    @@include('../../bem-blocks/Card/Card.html', {
+                        "img": "../../../img/solution2.webp",
+                        "text": "Фильтр-картриджи",
+                        "link": "#"
+                        })
+                    @@include('../../bem-blocks/Card/Card.html', {
+                        "img": "../../../img/solution3.webp",
+                        "text": "Корпусы",
+                        "link": "#"
+                        })
+                    @@include('../../bem-blocks/Card/Card.html', {
+                        "img": "../../../img/solution4.webp",
+                        "text": "Фильтрующие картоны",
+                        "link": "#"
+                        })
+                    @@include('../../bem-blocks/Card/Card.html', {
+                        "img": "../../../img/solution5.webp",
+                        "text": "Адсорбенты",
+                        "link": "#"
+                        })
+            </ul>
+        </div>
+    </div>
+</section>
