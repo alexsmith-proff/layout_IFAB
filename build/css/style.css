@@ -896,6 +896,14 @@ button::-moz-focus-inner {
   color: #F87933;
 }
 
+@media screen and (max-width: 480px) {
+  .btn {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px 25px;
+    border-radius: 25px;
+  }
+}
 .button-next {
   display: inline-block;
   padding: 20px 15px;
@@ -1785,6 +1793,7 @@ button::-moz-focus-inner {
   background: url("../../../img/card-bg.png") no-repeat;
   padding: 25px;
   width: 402px;
+  border-radius: 30px;
 }
 .main-page__cards-title {
   font-family: "PT Sans";
@@ -1806,6 +1815,84 @@ button::-moz-focus-inner {
   width: 236px;
 }
 
+@media screen and (max-width: 1250px) {
+  .main-page__cards-item {
+    width: 300px;
+  }
+  .main-page__cards-title {
+    font-size: 18px;
+  }
+  .main-page__cards-text {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main-page__title {
+    font-size: 48px;
+    padding-top: 100px;
+    margin-bottom: 25px;
+  }
+  .main-page__subtitle {
+    font-size: 20px;
+  }
+  .main-page__btn {
+    margin-bottom: 140px;
+  }
+  .main-page__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .main-page__cards-item {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-page__title {
+    text-align: center;
+  }
+  .main-page__subtitle {
+    text-align: center;
+  }
+  .main-page__btn {
+    text-align: center;
+  }
+  .main-page__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .main-page__cards-item {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-page__title {
+    font-size: 36px;
+  }
+  .main-page__subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+  .main-page__btn {
+    text-align: center;
+  }
+  .main-page__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .main-page__cards-item {
+    margin-bottom: 40px;
+  }
+}
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;

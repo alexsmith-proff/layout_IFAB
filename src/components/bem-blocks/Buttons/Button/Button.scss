@@ -13,3 +13,11 @@
         color: #F87933;
     }
 }
+@media screen and (max-width: 480px) {
+    .btn {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 15px 25px;
+        border-radius: 25px;
+    }    
+}
