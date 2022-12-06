@@ -1338,6 +1338,18 @@ button::-moz-focus-inner {
   padding: 35px 0;
 }
 
+@media screen and (max-width: 1450px) {
+  .footer__text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__text {
+    font-size: 20px;
+  }
+}
 .header {
   padding: 20px 0;
 }
