@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"Сайт",
+"description":"Сайт",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	<main class="main">
+		@@include('components/page-blocks/Header/Header.html', {
+            "item-active1": "",
+            "item-active2": "active",
+            "item-active3": "",
+            "item-active4": "",
+        })
+		@@include('components/page-blocks/Sidebar/Sidebar.html')
+        @@include('components/page-blocks/Card/Card.html')
+		@@include('components/page-blocks/Footer/Footer.html')
+
+	</main>
+	
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>
