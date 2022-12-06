@@ -1747,6 +1747,16 @@ button::-moz-focus-inner {
   margin: 20px 0;
 }
 
+@media screen and (max-width: 545px) {
+  .partners {
+    padding-top: 50px;
+  }
+  .partners__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .products {
   padding-top: 50px;
 }

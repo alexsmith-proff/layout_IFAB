@@ -27,3 +27,34 @@
         margin: 20px 0;
     }
 }
+@media screen and (max-width: 545px) {
+    .partners {
+        padding-top: 50px;
+    
+        // &__title {
+        //     text-align: center;
+        //     font-family: 'Raleway';
+        //     font-style: normal;
+        //     font-weight: 700;
+        //     font-size: 24px;
+        //     line-height: 108%;
+        //     text-transform: uppercase;
+        //     color: #004BA9;
+        //     margin-bottom: 30px;
+        // }
+    
+        &__list {
+            // display: flex;
+            justify-content: center;
+            // align-items: center;
+            // flex-wrap: wrap;
+            // margin-bottom: 60px;
+        }
+    
+        // &__item {
+        //     width: 263px;
+        //     height: 115px;
+        //     margin: 20px 0;
+        // }
+    }
+}
