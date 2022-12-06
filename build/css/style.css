@@ -1275,6 +1275,51 @@ button::-moz-focus-inner {
   color: #1A1A1A;
 }
 
+@media screen and (max-width: 1450px) {
+  .contacts {
+    padding: 100px 0;
+  }
+  .contacts__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+  .contacts__left {
+    width: 100%;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contacts {
+    padding: 50px 0;
+  }
+  .contacts__logo {
+    margin-bottom: 30px;
+    -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .contacts__item-text {
+    width: 220px;
+    font-size: 18px;
+    line-height: 108.2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #1A1A1A;
+  }
+}
 .footer {
   background-color: #004BA9;
 }
