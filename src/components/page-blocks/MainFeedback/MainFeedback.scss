@@ -212,7 +212,7 @@
 
   @media screen and (max-width: 500px) {
     .main-feedback {
-      padding-top: 50px;
+      padding-top: 20px;
 
       &__left {
         width: 310px;
@@ -252,6 +252,9 @@
       &__text {
         font-size: 16px;
       }
+      &__undertext {
+        font-size: 16px;
+      }
     }
   }
 
@@ -278,6 +281,11 @@
     &__text {
       font-size: 16px;
     }
+
+    &__undertext {
+      font-size: 14px;
+    }
+
     .slick-dots {
       bottom: -40px;
     }

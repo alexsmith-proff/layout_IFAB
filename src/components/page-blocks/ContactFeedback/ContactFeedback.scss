@@ -87,3 +87,164 @@
     }
   }
 }
+
+
+
+@media screen and (max-width: 1600px) {
+  .main-feedback {
+    &__wrap {
+      flex-direction: column;
+    }
+
+    &__left {
+      // width: 688px;
+      margin-bottom: 50px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .contact-feedback {
+    &__wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__left {
+      width: 680px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    &__right {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-feedback {
+    &__wrap {
+      flex-direction: column;
+    }
+
+    &__left {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 42px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+
+    &__input {
+      font-size: 18px;
+      padding: 18px 25px;
+    }
+
+    &__textarea {
+      font-size: 18px;
+      padding: 18px 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-feedback {
+    &__title {
+      font-size: 34px;
+    }
+
+    &__left {
+      max-width: 100%;
+      img{
+        display: block;
+        width: 100%;
+      }
+      // margin-bottom: 50px;
+      // text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .contact-feedback {
+      padding-top: 20px;
+
+      &__left {
+        width: 310px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+
+      &__slider-item {
+        img{
+          width: 310px;
+        }
+
+        P {
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          bottom: 20px;
+          font-family: 'Raleway';
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 108%;
+          color: #FFFFFF;
+        }
+      }
+
+      &__right {
+        width: 100%;
+        padding: 0 20px;
+      }
+
+      &__title {
+        font-size: 22px;
+        margin: 0;
+        margin-bottom: 30px;
+      }
+
+      &__text {
+        font-size: 16px;
+      }
+      &__undertext {
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .contact-feedback {
+    &__left {
+      width: 250px;
+    }
+
+    &__slider-item {
+      img{
+        width: 250px;
+      }
+    }
+
+    &__title {
+      font-size: 22px;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+    &__undertext {
+      font-size: 14px;
+    }
+  }  
+}
