@@ -25,12 +25,19 @@
         width: 263px;
         height: 115px;
         margin: 20px 0;
+        transform: scale(1);
+        transition: .7s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 }
+
 @media screen and (max-width: 545px) {
     .partners {
         padding-top: 50px;
-    
+
         // &__title {
         //     text-align: center;
         //     font-family: 'Raleway';
@@ -42,7 +49,7 @@
         //     color: #004BA9;
         //     margin-bottom: 30px;
         // }
-    
+
         &__list {
             // display: flex;
             justify-content: center;
@@ -50,7 +57,7 @@
             // flex-wrap: wrap;
             // margin-bottom: 60px;
         }
-    
+
         // &__item {
         //     width: 263px;
         //     height: 115px;

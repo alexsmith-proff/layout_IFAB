@@ -24,6 +24,7 @@
         padding: 20px;
         background: #FFFFFF;
         border: 1px solid #E8E8E8;
+        // cursor: pointer;
         &-bottom {
             display: flex;
             justify-content: space-between;
@@ -39,7 +40,6 @@
                 width: 200px;
             }
         }
-
     }
 
     &__view-btn{

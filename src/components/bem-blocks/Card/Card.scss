@@ -4,6 +4,11 @@
     border: 1px solid #E8E8E8;
     margin-bottom: 20px;
     max-width: 400px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+        border: 1px solid #a7a6a6;
+    }
 
     &__bottom {
         display: flex;
