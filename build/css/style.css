@@ -939,6 +939,7 @@ button::-moz-focus-inner {
   background: #FFFFFF;
   border: 1px solid #E8E8E8;
   margin-bottom: 20px;
+  max-width: 400px;
 }
 .card__bottom {
   display: -webkit-box;
@@ -959,6 +960,36 @@ button::-moz-focus-inner {
   width: 200px;
 }
 
+@media screen and (max-width: 420px) {
+  .card {
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 20px;
+    max-width: 250px;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+  }
+  .card__bottom h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1A1A;
+    width: 100px;
+  }
+}
 .my-btn {
   font-size: 22px;
   line-height: 28px;
@@ -1045,6 +1076,23 @@ button::-moz-focus-inner {
   font-weight: 700;
 }
 
+@media screen and (max-width: 710px) {
+  .sidebar__list {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sidebar__list {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sidebar__item a {
+    font-size: 16px;
+  }
+}
 .about {
   background: #F8F8F8;
   position: relative;
@@ -1969,12 +2017,54 @@ button::-moz-focus-inner {
           align-items: flex-start;
 }
 .products__list {
-  max-width: 1256px;
+  margin-left: 30px;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(405px, 1fr));
   grid-gap: 20px;
 }
 
+@media screen and (max-width: 1145px) {
+  .products__list {
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 710px) {
+  .products__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .products__wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .products__list {
+    margin-left: 0;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 410px) {
+  .products__wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .products__list {
+    margin-left: 0;
+    max-width: 250px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+  }
+}
 .solutions {
   padding-top: 100px;
 }
