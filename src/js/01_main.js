@@ -16,7 +16,7 @@ $(document).ready(function () {
 	})
 	$(window).scroll(() => {
 		let height = $(window).scrollTop();
-		$('.scroll-top').text(height)
+		// $('.scroll-top').text(height)
 		if(height > 800) {
 			$('.geography__right-item').addClass('animate__animated animate__fadeInUp visible')
 			$('.geography__left').addClass('animate__animated animate__fadeInLeft visible')

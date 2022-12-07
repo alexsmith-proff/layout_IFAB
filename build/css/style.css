@@ -1477,6 +1477,9 @@ button::-moz-focus-inner {
 .contacts__right.visible {
   visibility: visible;
 }
+.contacts__right.show {
+  visibility: visible;
+}
 .contacts__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1546,6 +1549,17 @@ button::-moz-focus-inner {
             justify-content: center;
   }
 }
+@media screen and (max-width: 900px) {
+  .contacts__right {
+    visibility: visible;
+  }
+  .contacts__right img {
+    margin-bottom: 30px;
+  }
+  .contacts__right.visible {
+    visibility: visible;
+  }
+}
 @media screen and (max-width: 480px) {
   .contacts {
     padding: 50px 0;
@@ -1567,6 +1581,9 @@ button::-moz-focus-inner {
         -ms-flex-align: center;
             align-items: center;
     color: #1A1A1A;
+  }
+  .contacts__right {
+    visibility: visible;
   }
 }
 .footer {
